@@ -1,0 +1,2 @@
+minPts = 3 
+minRect = 10

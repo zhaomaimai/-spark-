@@ -1,0 +1,6 @@
+eps = 3.0
+minPts = 10
+data_rdd = data_rdd.repartition(2).cache()  # 分区数
+cluster_id = 2
+if len(neighbors) < bc_minPts.value:
+            cluster_labels[i] = 1  # 噪声记为1
